@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/fs120_html-css_yevheniiradko/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>be-trandy24</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fira+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="module" crossorigin src="/fs120_html-css_yevheniiradko/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/fs120_html-css_yevheniiradko/assets/index-kNfM5c2q.css">
+  </head>
+  <body>
+    <header class="page-header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="logo header-logo" href="#">
+        <img
+          class="header-logo-icon"
+          src="/fs120_html-css_yevheniiradko/assets/logoEcoTone-QCOicZAA.svg"
+          alt="logoEcoTone"
+        />
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#about">Про нас</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#advantages">Переваги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#assortment">Асортимент</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Галерея</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#feedbacks">Відгуки</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#support">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+
+    <address class="contacts">
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <a class="contacts-link" href="tel:+380999091122"
+            >+38 (099) 909 11 22</a
+          >
+        </li>
+        <li class="contacts-item">
+          <a class="contacts-link" href="mailto:hello@ecotote.com"
+            >hello@ecotote.com</a
+          >
+        </li>
+      </ul>
+    </address>
+
+    <button class="burger-btn" type="button" data-modal-open>
+      <svg class="burger-icon" width="32" height="32">
+        <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-ecoburger"></use>
+      </svg>
+    </button>
+  </div>
+ 
+
+  <div class="mobile-menu" data-modal>
+    <div class="container mobile-menu-header-container">
+      <a class="logo mobile-menu-header-logo" href="/index.html">
+        <img
+          class="header-logo-icon"
+          src="/fs120_html-css_yevheniiradko/assets/logoEcoTone-QCOicZAA.svg"
+          alt="logoEcoTone"
+        />
+      </a>
+      <button class="close-btn" type="button" data-modal-close>
+        <svg class="close-icon" width="32" height="32">
+          <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-ecoclose"></use>
+        </svg>
+      </button>
+
+      <nav class="mobile-menu-header-nav">
+        <ul class="mobile-menu-nav-list">
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="#about">Про нас</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="#advantages">Переваги</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="#assortment">Асортимент</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="#gallery">Галерея</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="#feedbacks">Відгуки</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="#support">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="mobile-menu-contacts">
+        <ul class="mobile-menu-contacts-list">
+          <li class="mobile-menu-contacts-item">
+            <a class="mobile-menu-contacts-link" href="tel:+380999091122"
+              >+38 (099) 909 11 22</a
+            >
+          </li>
+          <li class="mobile-menu-contacts-item">
+            <a class="mobile-menu-contacts-link" href="mailto:hello@ecotote.com"
+              >hello@ecotote.com</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero">
+
+  <div class="container hero-container"> 
+    <div class="hero-wrapper">        
+
+      <h1 class="hero-logo">EcoTote — Стиль, що не шкодить планеті</h1>
+      <div class="hero-description">
+          <p class="hero-description-text">Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та відповідальність разом з EcoTote.</p>
+          <a href="#assortment" class="btn">Купити зараз</a>
+      </div>
+    </div>
+      <picture>
+        <source media="(min-width: 1440px)"
+          srcset="/fs120_html-css_yevheniiradko/assets/hero-desktop-BT_UZf-6.jpg 1x, /fs120_html-css_yevheniiradko/assets/hero-desktop-2x-Bk-L3pZW.jpg 2x">
+        <source media="(min-width: 768px)" 
+          srcset="/fs120_html-css_yevheniiradko/assets/hero-tabl-CVHAHmA2.jpg 1x, /fs120_html-css_yevheniiradko/assets/hero-tabl-2x-CK7Z_-qi.jpg 2x">
+        <source media="(max-width: 767px)" 
+          srcset="/fs120_html-css_yevheniiradko/assets/hero-mob-DZ6yp9PK.jpg 1x, /fs120_html-css_yevheniiradko/assets/hero-mob-2x-CYEAz5YT.jpg 2x">
+  
+        <img src="/fs120_html-css_yevheniiradko/assets/hero-desktop-BT_UZf-6.jpg" class="hero-banner" alt="EcoTote" width="1312px" />
+      </picture>
+  </div>
+</section>
+
+
+      
+<section class="about" id="about">
+    <div class="container">
+      <p class="about_text">Природність</p>
+      <h1 class="about_h">Турбота про планету</h1>
+      <p class="about_text_2">
+        Ми використовуємо органічну бавовну, перероблений пластик, льон та коноплі для наших сумок.
+      </p>
+    </div>
+  </section>
+  
+
+      <div class="container advantages">
+  <section class="advantages" id="advantages">
+    <div class="header">
+      <div class="label">Переваги</div> 
+      <h2 class="title">Чому обрати нас?</h2>
+      <div class="subtitle">
+        Наші сумки виготовлені з екологічно чистих матеріалів, що забезпечують стійкість і довговічність. Обираючи EcoTote, ви підтримуєте екологічну відповідальність.
+      </div>
+    </div>
+    <ul class="cards">
+      <li class="card">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="/fs120_html-css_yevheniiradko/assets/1-BZd8OJ68.jpg">
+          <source media="(min-width: 768px)" srcset="/fs120_html-css_yevheniiradko/assets/1-768-BvT2KLU7.jpg">
+          <img src="/fs120_html-css_yevheniiradko/assets/1-320-BGbaVKp-.jpg" alt="Стійкість та екологічність">
+        </picture>
+        <div class="card-text">
+          <h3 class="card-title">Стійкість та <br>екологічність</h3>
+          <p class="card-desc">Виготовлені з органічної бавовни та переробленого пластику.</p>
+        </div>
+      </li>
+      <li class="card">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="/fs120_html-css_yevheniiradko/assets/2-BVHdApyS.jpg">
+          <source media="(min-width: 768px)" srcset="/fs120_html-css_yevheniiradko/assets/2-768-Fgvmr2h0.jpg">
+          <img src="/fs120_html-css_yevheniiradko/assets/2-320-CqJFsNkH.jpg" alt="Міцність і довговічність">
+        </picture>
+        <div class="card-text">
+          <h3 class="card-title card-title--comfortaa">
+            Міцність і <br>довговічність
+          </h3>
+          <p class="card-desc">Наші сумки мають посилені шви для тривалого використання.</p>
+        </div>
+      </li>
+      <li class="card">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="/fs120_html-css_yevheniiradko/assets/3-BkdRUb5B.jpg">
+          <source media="(min-width: 768px)" srcset="/fs120_html-css_yevheniiradko/assets/3-768-C-yDUF69.jpg">
+          <img src="/fs120_html-css_yevheniiradko/assets/3-320-CefVHL8j.jpg" alt="Стильний та сучасний дизайн">
+        </picture>
+        <div class="card-text">
+          <h3 class="card-title card-title--design">
+            Стильний та<br>сучасний дизайн
+          </h3>
+          <p class="card-desc">Мінімалістичні моделі в обмежених серіях для кожного стилю.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+
+      <section class="assortment-menu" id="assortment">
+  <div class="assort-container">
+    <h2 class="assortment-title">Наші сумки</h2>
+    <div class="assort-div">
+      <ul class="assortment-container">
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/1-min-CQ-l6e1O.jpg 1x, /fs120_html-css_yevheniiradko/assets/img1-2x-min-C80ezi5E.jpg 2x"
+            src="/src/img/assortment/1-min.jpg"
+            width="288"
+            height="345"
+            alt="ecobag classic"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoBag Classic</h3>
+            <p class="container-mod-title">
+              Елегантна та містка сумка для щоденного використання.
+            </p>
+            <p class="assortment-chek">$25</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/2-min-8LwSrJiH.jpg 1x, /fs120_html-css_yevheniiradko/assets/img2-2x-min-B9l-lMpk.jpg 2x"
+            src="/src/img/assortment/2-min.jpg"
+            width="288"
+            height="345"
+            alt="ecotote shopper"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoTote Shopper</h3>
+            <p class="container-mod-title">
+              Ідеальна для покупок, з посиленими ручками.
+            </p>
+            <p class="assortment-chek">$30</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/3-min-D4h-E3Zq.jpg 1x, /fs120_html-css_yevheniiradko/assets/img3-2x-min-mx5svbnY.jpg 2x"
+            src="/src/img/assortment/3-min.jpg"
+            width="288"
+            height="345"
+            alt="ecobackpack urban"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoBackpack Urban</h3>
+            <p class="container-mod-title">
+              Зручний рюкзак для міста з відділенням для ноутбука.
+            </p>
+            <p class="assortment-chek">$45</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/4-min-BVgXTS3b.jpg 1x, /fs120_html-css_yevheniiradko/assets/img4-2x-min-Dji3Ub9r.jpg 2x"
+            src="/src/img/assortment/4-min.jpg"
+            width="288"
+            height="345"
+            alt="ecocrossbody mini"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoCrossbody Mini</h3>
+            <p class="container-mod-title">
+              Компактна сумка через плече для найнеобхіднішого.
+            </p>
+            <p class="assortment-chek">$20</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/5-min-BEga1Tfm.jpg 1x, /fs120_html-css_yevheniiradko/assets/img5-2x-min-RXFztwnG.jpg 2x"
+            src="/src/img/assortment/5-min.jpg"
+            width="288"
+            height="345"
+            alt="ecoLunch bag"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoLunch Bag</h3>
+            <p class="container-mod-title">
+              Стильна та практична сумка для обідів.
+            </p>
+            <p class="assortment-chek">$15</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/6-min-DLV7OVXD.jpg 1x, /fs120_html-css_yevheniiradko/assets/img6-2x-min-BmK5KURf.jpg 2x"
+            src="/src/img/assortment/6-min.jpg"
+            width="288"
+            height="345"
+            alt="ecobeach tote"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoBeach Tote</h3>
+            <p class="container-mod-title">
+              Велика сумка для пляжних речей з водонепроникною підкладкою.
+            </p>
+            <p class="assortment-chek">$35</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/7-min-BdCjiaIt.jpg 1x, /fs120_html-css_yevheniiradko/assets/img7-2x-min-DC-gvHLA.jpg 2x"
+            src="/src/img/assortment/7-min.jpg"
+            width="288"
+            height="345"
+            alt="ecotravel duffle"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoTravel Duffle</h3>
+            <p class="container-mod-title">
+              Містка дорожня сумка з додатковими кишенями.
+            </p>
+            <p class="assortment-chek">$60</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+        <li class="assortment-pow">
+          <img
+            srcset="/fs120_html-css_yevheniiradko/assets/8-min-CWBSM3yX.jpg 1x, /fs120_html-css_yevheniiradko/assets/img8-2x-min-C0ZmaSi5.jpg 2x"
+            src="/src/img/assortment/8-min.jpg"
+            width="288"
+            height="345"
+            alt="ecokids bag"
+          />
+          <div class="container-mod">
+            <h3 class="assortment-van">EcoKids Bag</h3>
+            <p class="container-mod-title">
+              Яскрава та зручна сумка для дітей.
+            </p>
+            <p class="assortment-chek">$22</p>
+          </div>
+          <button type="button" class="button-chek">Купити</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section" id="gallery">
+  <div class="container">
+    <div class="gallery">
+      <h2 class="section-title">Галерея зображень</h2>
+      <p class="section-subtitle">EcoTotes у повсякденному житті</p>
+    </div>
+    <ul class="gallery-list">
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/an-eco-tot-desk-1x-BltTVN92.jpg 1x, /fs120_html-css_yevheniiradko/assets/an-eco-tot-desk-2x-v2kN_n2W.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/an-eco-tot-tab-1x-BXH_gQRC.jpg 1x, /fs120_html-css_yevheniiradko/assets/an-eco-tot-tab-2x-DhtjOk2W.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/an-eco-tot-mob-1x-nlxmH-0p.jpg 1x, /fs120_html-css_yevheniiradko/assets/an-eco-tot-mob-2x-ewsyvrRg.jpg 2x"
+          />
+          <img
+            src="./img/an-eco-tot-mob-1x.jpg"
+            height="288"
+            width="288"
+            alt="an-eco-tot"
+          />
+        </picture>
+      </li>
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-city-scene-desk-1x-C3y4phhd.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-city-scene-desk-2x-DUR616Tq.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-city-scene-tab-1x-BBn4EQHS.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-city-scene-tab-2x-CYjUP5GN.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-city-scene-mob-1x-tK6oU8Ks.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-city-scene-mob-2x-vxn00FLJ.jpg 2x"
+          />
+          <img
+            src="/fs120_html-css_yevheniiradko/assets/a-city-scene-mob-1x-tK6oU8Ks.jpg"
+            height="288"
+            width="288"
+            alt="a-city-scene"
+          />
+        </picture>
+      </li>
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-person-desk-1x-Ce6I0gmR.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-person-desk-2x-D35SHNz9.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-person-tab-1x-CeM9EkPZ.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-person-tab-2x-BC3577fh.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-person-mob-1x-DX1AZQbj.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-person-mob-2x-Lcr3yyw3.jpg 2x"
+          />
+          <img
+            src="/fs120_html-css_yevheniiradko/assets/a-person-mob-1x-DX1AZQbj.jpg"
+            height="288"
+            width="288"
+            alt="a-person"
+          />
+        </picture>
+      </li>
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-young-woman-desk-1x-A4FTJtLZ.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-young-woman-desk-2x-DG8vbNpQ.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-young-woman-tab-1x-DT6gRxv5.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-young-woman-tab-2x-BuSv0EAB.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_yevheniiradko/assets/a-young-woman-mob-1x-DLcwGIAa.jpg 1x, /fs120_html-css_yevheniiradko/assets/a-young-woman-mob-2x--9SE8tIJ.jpg 2x"
+          />
+          <img
+            src="/fs120_html-css_yevheniiradko/assets/a-young-woman-mob-1x-DLcwGIAa.jpg"
+            height="288"
+            width="288"
+            alt="a-young-woman"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      
+
+  <section id="feedbacks" class="feedback-section">
+    <div class="container">
+    <h2 class="feedback-head">Що говорять наші клієнти</h2>
+    <ul class="feedback-list">
+      <li class="feedback-item">
+        <ul class="feedback-icons-list">
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedback-parag">
+          Сумка дуже зручна та стильна, використовую щодня!
+        </p>
+        <p class="feedback-parag-name">Анна</p>
+      </li>
+      <li class="feedback-item">
+        <ul class="feedback-icons-list">
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon-black" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedback-parag">
+          Відмінна якість матеріалів, приємно здивована.
+        </p>
+        <p class="feedback-parag-name">Ігор</p>
+      </li>
+      <li class="feedback-item">
+        <ul class="feedback-icons-list">
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon-black" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedback-parag">
+          Сумка повністю відповідає опису, рекомендую!
+        </p>
+        <p class="feedback-parag-name">Олена</p>
+      </li>
+      <li class="feedback-item">
+        <ul class="feedback-icons-list">
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+          <li class="feedback-icons-item">
+            <svg class="feedback-icon" width="20" height="20">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-feedbackstar"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedback-parag">Швидка доставка та гарне обслуговування.</p>
+        <p class="feedback-parag-name">Сергій</p>
+      </li>
+    </ul>
+</div>
+      </section>
+
+
+      
+<section class="support" id="support">
+      <div class="container support-container">
+        <div class="support_content">
+          <div class="support_1block">
+            <h2 class="support_title">
+              Залишились питання?<br />
+              Зв'яжіться з нами!
+            </h2>
+
+            <h3 class="form_subtitle">Ми тут, щоб допомогти!</h3>
+            <form class="form">
+              <label for="name">
+                Імʼя
+                <input
+                  type="text"
+                  class="input"
+                  name="user-name"
+                  pattern="a-zA-Zа-яА-ЯіІїЇєЄґҐ"
+                  title="Іван"
+                  placeholder="Іван"
+                  required
+                />
+              </label>
+              <label for="email"
+                >Електронна пошта
+                <input
+                  type="email"
+                  class="input"
+                  name="user-email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  title="hello@ecotote.com"
+                  placeholder="hello@ecotote.com"
+                  required
+                />
+              </label>
+              <label for="user-comment"
+                >Повідомлення
+                <textarea
+                  name="user-comment"
+                  rows="5"
+                  class="textarea_comment"
+                  placeholder="Введіть своє повідомлення..."
+                  required
+                ></textarea>
+              </label>
+              <button class="button_send btn" type="submit">Надіслати</button>
+            </form>
+          </div>
+          <div class="support_2block">
+            <picture>
+              <source media="(min-width: 1440px)" 
+              srcset="/fs120_html-css_yevheniiradko/assets/support-desktop-hZg2Hi2i.jpg 1x, /fs120_html-css_yevheniiradko/assets/support-desktop-2x-LpC4W-Ru.jpg 2x">
+              <source media="(min-width: 768px)" 
+              srcset="/fs120_html-css_yevheniiradko/assets/support-tabl-DDW4zQpd.jpg 1x, /fs120_html-css_yevheniiradko/assets/support-tabl-2x-DjNfuZV6.jpg 2x">
+              <source media="(max-width: 767px)" 
+              srcset="/fs120_html-css_yevheniiradko/assets/support-mob-CZQu_Ua2.jpg 1x, /fs120_html-css_yevheniiradko/assets/support-mob-2x-ColEseZb.jpg 2x">
+            
+              <img src="/fs120_html-css_yevheniiradko/assets/support-desktop-hZg2Hi2i.jpg" class="contact_us_jpg" alt="Support" width="704"/>
+            </picture>
+
+          </div>
+        </div>
+      </div>
+</section>
+
+
+    </main>
+
+    <footer class="footer">
+  <div class="container footer-container">
+
+    <nav class="footer-navigation">
+      <a href="#" class="footer-logo-link">
+  <img src="/fs120_html-css_yevheniiradko/assets/logoEcoTone-QCOicZAA.svg" alt="Логотип компанії EcoTote" width="273" height="102">
+      </a>
+
+     <ul class="footer-nav">
+        <li class="footer-nav-item"><a class="footer-link" href="#about">Про нас</a></li>
+        <li class="footer-nav-item"><a class="footer-link" href="#advantages">Переваги</a></li>
+        <li class="footer-nav-item"><a class="footer-link" href="#assortment">Асортимент</a></li>
+        <li class="footer-nav-item"><a class="footer-link" href="#gallery">Галерея</a></li>
+        <li class="footer-nav-item"><a class="footer-link" href="#feedbacks">Відгуки</a></li>
+        <li class="footer-nav-item"><a class="footer-link" href="#contacts">Контакти</a></li>
+      </ul>
+
+      <ul class="footer-socials">
+        <li class="footer-social-item">
+          <a class="footer-social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <svg class="footer-social-icon" width="32" height="33">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-ecoinstagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link" href="https://ua.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <svg class="footer-social-icon" width="32" height="33">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-ecolinkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+            <svg class="footer-social-icon" width="32" height="33">
+              <use href="/fs120_html-css_yevheniiradko/assets/icons-CneqVuyL.svg#icon-ecoyoutube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="footer-bottom">
+      <address class="footer-address">
+        <ul class="footer-address-list">
+            <li class="footer-address-item">
+              <a class="footer-address-link" href="tel:+380999091122">+38 (099) 909 11 22</a>
+            </li>
+            <li class="footer-address-item">
+              <a class="footer-address-link" href="mailto:hello@ecotote.com">hello@ecotote.com</a>
+            </li>
+          </ul>
+      </address>
+      <p class="footer-copy">&copy; 2025 EcoTote. Всі права захищені.</p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
