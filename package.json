@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/-e_trendy24/",
+    "build": "vite build --base=/fs120_html-css_yevheniiradko/",
     "preview": "vite preview"
   },
   "devDependencies": {
